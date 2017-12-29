@@ -7,7 +7,7 @@
     <groupId>com.noasking</groupId>
     <artifactId>noasking-boot-presto-starter</artifactId>
     <packaging>pom</packaging>
-    <version>1.0</version>
+    <version>1.1-SNAPSHOT</version>
     <modules>
         <module>presto-spring-boot-starter</module>
         <module>noasking-boot-presto-demo</module>
