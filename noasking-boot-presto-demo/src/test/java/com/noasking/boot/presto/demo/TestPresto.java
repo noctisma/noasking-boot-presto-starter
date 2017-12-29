@@ -1,6 +1,8 @@
 package com.noasking.boot.presto.demo;
 
 import com.noasking.boot.presto.autoconfigure.PrestoJdbcUtils;
+import com.noasking.boot.presto.demo.dao.PrestoTest2DAO;
+import com.noasking.boot.presto.demo.dao.PrestoTestDAO;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -73,6 +75,19 @@ public class TestPresto {
         } catch (SQLException e) {
             e.printStackTrace();
         }
+    }
+
+    @Autowired
+    public PrestoTestDAO prestoTestDAO;
+
+    @Autowired
+    public PrestoTest2DAO prestoTest2DAO;
+
+    @Test
+    public void testAn() {
+//        PrestoTestDAO prestoTestDAO = new PrestoTestDAO();
+        System.out.println(prestoTestDAO.coung("aaaa", "bbbbb"));
+        System.out.println(prestoTest2DAO.coung("aaaa", "bbbbb"));
     }
 
 

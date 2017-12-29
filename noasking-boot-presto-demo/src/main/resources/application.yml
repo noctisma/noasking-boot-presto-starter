@@ -4,3 +4,6 @@ presto:
     username: root
     password: root
     url: jdbc:presto://10.10.10.21:9000/hive/default
+#spring:
+#  aop:
+#    proxy-target-class: true
