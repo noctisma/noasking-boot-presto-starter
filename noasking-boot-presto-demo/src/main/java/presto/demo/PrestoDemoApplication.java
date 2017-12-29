@@ -1,8 +1,7 @@
-package com.noasking.boot.presto.demo;
+package presto.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.ApplicationContext;
 
 /**
  * Created by MaJing on 2017/12/26.

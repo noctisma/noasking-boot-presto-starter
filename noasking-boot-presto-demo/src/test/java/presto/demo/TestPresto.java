@@ -1,14 +1,14 @@
-package com.noasking.boot.presto.demo;
+package presto.demo;
 
 import com.noasking.boot.presto.autoconfigure.PrestoJdbcUtils;
-import com.noasking.boot.presto.demo.dao.PrestoTest2DAO;
-import com.noasking.boot.presto.demo.dao.PrestoTestDAO;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import presto.demo.dao.PrestoTest2DAO;
+import presto.demo.dao.PrestoTestDAO;
 
 import java.sql.SQLException;
 import java.util.List;

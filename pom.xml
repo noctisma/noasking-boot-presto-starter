@@ -11,6 +11,7 @@
     <modules>
         <module>presto-spring-boot-starter</module>
         <module>noasking-boot-presto-demo</module>
+        <module>presto-spring-boot-autoconfigure</module>
     </modules>
 
     <properties>
